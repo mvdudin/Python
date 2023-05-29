@@ -26,7 +26,7 @@ def search(fname):
             print(row)
             found+=1
     book.close()
-    if foubd == 0:
+    if found == 0:
         print("Абонент не найден")
     
 
